@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>
+JavaScript prompt() method
+</title>
+
+</head>
+
+<body style = "text-align: center; background-color: coral;">
+<h1 style = "color: red;">
+<b>prompt method assignment</b>
+</h1>
+<h2 style="margin-bottom: 0%;">
+Example of the JavaScript prompt() method
+</h2>
+
+<button  style="margin-top: 50px;" onclick = "fun()">
+Click me
+</button>
+<p id="para" style="color: greenyellow; font-size: 50px;"><input type="text"></p>
+<script>
+    function fun() {
+    var a = prompt("Enter some text", "yo team doctor strange rocks");
+    if (a != null) {
+    document.getElementById("para").innerHTML = "you hv typed :  " + a;
+    }
+    }
+    </script>
+
+
+</body>
+
+</html>
